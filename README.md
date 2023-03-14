@@ -1,3 +1,15 @@
+### RUN THIS COMMAND IN PROJECT ROOT DIRECTORY:
+
+```
+#Installing COMPOSER.
+
+curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
+sudo php /tmp/composer-setup.php --install-dir=/usr/bin --filename=composer
+
+#Installing the AWS SDK for PHP 3.x on our system using COMPOSER.
+composer require aws/aws-sdk-php
+```
+
 ### THE BELOW ARE THE PARAMETERS THAT ARE REQUIRED FOR RDS WHILE UISNG AWS SDK PHP 3.X:
 
 ```
